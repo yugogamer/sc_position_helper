@@ -2,6 +2,14 @@
 name = "sc_position_helper"
 version = "0.1.0"
 edition = "2021"
+author = "Yugogamer <57806524+yugogamer@users.noreply.github.com>"
+license = "MIT"
+description = "A simple helper to find location in star citizen, its also a base library for rust star citizen related project"
+readme = "README.md"
+homepage = "https://github.com/yugogamer/sc_position_helper"
+repository = "https://github.com/yugogamer/sc_position_helper"
+keywords = ["cli", "star_citizen", "sc", "position"]
+categories = ["command-line-utilities", "library"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
