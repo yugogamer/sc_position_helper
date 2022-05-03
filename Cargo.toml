@@ -1,8 +1,23 @@
 [package]
-name = "SC_position_helper"
+name = "sc_position_helper"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "1"
+clipboard = "0.5.0"
+tokio = { version = "1", features = ["full"] }
+colored = "2"
+
+[dev-dependencies]
+test-case = "2.0.2"
+
+[[bin]]
+name = "sc_position_helper"
+path = "src/main.rs"
+
+[lib]
+name = "sc_position_helper"
+path = "src/lib.rs"
